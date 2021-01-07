@@ -1,5 +1,6 @@
 
-## Gothello
+## Gothello1. 
+[Releases](https://github.com/noovo86/gothello/releases) からzipファイルをダウンロードしてください
 
 # どんなゲーム？
 挟んだらひっくり返せる五目並べです。五目並べとオセロを合わせたようなゲームです。最高に面白いです。
