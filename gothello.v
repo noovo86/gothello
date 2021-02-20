@@ -777,7 +777,15 @@ fn on_event(e &sapp.Event, mut app App) {
 		}
 		.key_down {
 			if app.vic == 0 {
-				app.on_key_down(e.key_code)
+				if e.key_code == .escape{
+					app.turn++
+					if app.turn > 2 {
+						app.turn = 1
+					}
+					app.vic = 1
+				}else{
+					app.on_key_down(e.key_code)
+				}
 			} else if e.key_code == .space {
 				app.reset()
 			}
